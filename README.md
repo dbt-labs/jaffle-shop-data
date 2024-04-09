@@ -20,7 +20,3 @@ cp -R jaffle-data /path/to/jaffle-shop/
 cd /path/to/jaffle-shop
 dbt seed
 ```
-
-```
-
-```
