@@ -13,4 +13,14 @@ It's a 1 year sample spanning from 2016 to 2017, and includes the following tabl
 
 ## Usage
 
-You can clone this repo or download it as a zip file. The data is all CSVs for easy use in dbt. If you're using it with the Jaffle Shop project, just place the CSVs in the `seeds` directory of your dbt project or create a folder called `jaffle-data`, which that project also scans for seed files. More detailed instructions are in the [`jaffle-shop`](https://github.com/dbt-labs/jaffle-shop) repo.
+You can clone this repo or download it as a zip file. The data is all CSVs for easy use in dbt. If you're using it with the Jaffle Shop project, just copy the `jaffle-data` directory into your `jaffle-shop` project directory, then run a `dbt seed`. More detailed instructions are in the [`jaffle-shop`](https://github.com/dbt-labs/jaffle-shop) repo.
+
+```bash
+cp -R jaffle-data /path/to/jaffle-shop/
+cd /path/to/jaffle-shop
+dbt seed
+```
+
+```
+
+```
